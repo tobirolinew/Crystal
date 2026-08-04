@@ -1,0 +1,132 @@
+(I) Reference geometry:
+
+    (1) Chemical composition:
+
+        (a) Number of effective sites: 2
+
+        (b) Number of monomers: 2
+
+        (c) Number of atoms in monomers:
+
+              Monomer #1: 1
+
+              Monomer #2: 1
+
+    (2) Cartesian coordinates:
+
+            symb          x                y                z
+              D      0.0000000000     0.0000000000     0.0000000000
+              D      0.0000000000     0.0000000000     0.0000000000
+
+(II) F2B parameters:
+
+    (1) Term U_intra (polynomial):
+
+        (a) L(B_intra): 0
+
+    (2) Term U_els:
+
+        ~ Charge polynomials:
+
+          - i=1:
+
+              (a) L(b_els): 0
+
+          - i=2:
+
+              (a) L(b_els): 0
+
+        ~ delta1 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           delta1
+                             1     2           d_huge
+
+    (3) Term U_disp:
+
+        ~ A12 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           A12
+                             1     2    4.000000000000000E+00
+
+        ~ delta10 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ delta8 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ delta6 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           delta6
+                             1     2           d_huge
+
+        ~ delta4 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ C10 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ C8 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ C6 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           C6
+                             1     2    4.000000000000000E+00
+
+        ~ C4 coefficients:
+
+              (a) Nonzero entries: 0
+
+    (4) Term U_exp:
+
+        ~ beta parameters:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j            beta
+                             1     2    1.000000000000000E+00
+
+        ~ gamma parameters:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           gamma
+                             1     2    0.000000000000000E+00
+
+        ~ Preexponential polynomials:
+
+    (5) Term U_ind:
+
+        ~ alpha parameters:
+
+              (a) Nonzero entries: 0
+
+        ~ delta3 coefficients:
+
+              (a) Nonzero entries: 0
+

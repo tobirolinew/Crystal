@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+crystal.x
+
+# Run artifacts
+fort.*
+done.log
+slurm.log
+*.mod
+
+# Editor / OS cruft
+*.swp
+*~
+.DS_Store

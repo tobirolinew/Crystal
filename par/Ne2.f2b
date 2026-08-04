@@ -1,0 +1,161 @@
+(I) Reference geometry: 
+
+    (1) Chemical composition:
+
+        (a) Number of effective sites: 2
+
+        (b) Number of monomers: 2
+
+        (c) Number of atoms in monomers:
+
+              Monomer #1: 1
+
+              Monomer #2: 1
+
+    (2) Cartesian coordinates: 
+
+            symb          x                y                z         
+              Ne     0.0000000000     0.0000000000     0.0000000000
+              Ne     0.0000000000     0.0000000000     0.0000000000
+ 
+(II) F2B parameters:
+
+    (1) Term U_intra (polynomial):
+
+        (a) L(B_intra): 0
+
+    (2) Term U_els:
+
+        ~ Charge polynomials:
+
+          - i=1:
+
+              (a) L(b_els): 0
+
+          - i=2:
+
+              (a) L(b_els): 0
+
+        ~ delta1 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           delta1        
+                             1     2           d_huge        
+ 
+    (3) Term U_disp:
+
+        ~ A12 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ delta10 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           delta10       
+                             1     2    9.915432911562476E-01
+ 
+        ~ delta8 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           delta8        
+                             1     2    9.996238202339400E-01
+ 
+        ~ delta6 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           delta6        
+                             1     2    1.009007482001547E+00
+ 
+        ~ delta4 coefficients:
+
+              (a) Nonzero entries: 0
+
+        ~ C10 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           C10           
+                             1     2    6.789802478145426E+06
+ 
+        ~ C8 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           C8            
+                             1     2    5.632996954656816E+02
+ 
+        ~ C6 coefficients:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table: 
+
+                             i     j           C6            
+                             1     2    3.731681911564991E+03
+ 
+        ~ C4 coefficients:
+
+              (a) Nonzero entries: 0
+
+    (4) Term U_exp:
+
+        ~ beta parameters:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j            beta         
+                             1     2    1.908349105789982E+00
+ 
+        ~ gamma parameters:
+
+              (a) Nonzero entries: 1
+
+              (b) Parameter table:
+
+                             i     j           gamma         
+                             1     2    1.141135021990000E+01
+ 
+        ~ Preexponential polynomials:
+
+          - (i=1,j=2):
+
+              (a) Nonzero entries: 6
+
+              (b) Parameter table:
+
+                  %%% lambda_exp %%%           s_exp                    b_exp
+                       1     2     0    0.000000000000000E+00    1.000000000000000E+00
+                       1     2     1    0.000000000000000E+00   -5.574898780555605E-01
+                       1     2     2    0.000000000000000E+00    1.560356706889841E-01
+                       1     2     3    0.000000000000000E+00   -2.660590012854407E-02
+                       1     2     4    0.000000000000000E+00    2.552557374650108E-03
+                       1     2     5    0.000000000000000E+00   -1.132408298116965E-04
+ 
+    (5) Term U_ind:
+
+        ~ alpha parameters:
+
+              (a) Nonzero entries: 0
+
+        ~ delta3 coefficients:
+
+              (a) Nonzero entries: 0
+

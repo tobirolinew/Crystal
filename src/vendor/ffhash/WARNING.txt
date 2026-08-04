@@ -1,0 +1,8 @@
+WARNING:
+   The local version of the "ffhash_inc.f90" file includes 
+   a modification to the "store_key" subroutine that returns 
+   -2 when a duplicate key is found. 
+   Do not overwrite the modified file with the GitHub version 
+   until the change is included upstream. 
+   Please follow the pull request for updates: 
+   https://github.com/jannisteunissen/ffhash/pull/3.

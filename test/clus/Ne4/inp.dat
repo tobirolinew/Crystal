@@ -1,0 +1,39 @@
+Generic parameters:
+
+  cut = 0.0 
+  contrac = 0.5
+  sys_name = rigidMC
+  nthreads = 60
+  plot = 0
+
+System-dependent parameters:
+
+    Geometry:
+
+      cluster  = ~/Crystal/xyz/Nen/Ne4_GM.xyz
+      monomer1 = ~/Crystal/xyz/Nen/Ne.xyz
+      monomer2 = ~/Crystal/xyz/Nen/Ne.xyz
+      monomer3 = ~/Crystal/xyz/Nen/Ne.xyz
+      monomer4 = ~/Crystal/xyz/Nen/Ne.xyz
+
+    Customize:
+
+      custom_drive = normal
+      ang_step[deg] = 25.0
+      rad_step[A] = relax
+
+    Cost:
+
+      cost_label = Energy
+      cost_unit  = cm-1
+      cost_spec  = ~/Crystal/par/Ne2.f2b
+      cost_drive = f2b_homo
+
+    Task:
+
+      task_drive = msopt
+      stac_point_file = stac.xyz
+      max_targets = none
+      max_ener = none
+      max_order = none
+      skip_flat = 0
