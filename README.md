@@ -25,7 +25,7 @@ At present, a single system is shipped:
 
 - **`rigidMC`** — general system for the treatment of **rigid
   molecular clusters**, where the cost function is the
-  interaction energy (relative to the energy of the fully
+  interaction energy (relative to the energy of the completely
   dissociated and relaxed cluster).
 
 This document covers three topics:
@@ -75,6 +75,10 @@ The ***Crystal*** algorithm itself was originally introduced in:
   potential energy surfaces*, J. Comput. Chem. **45**,
   1261–1278 (2024).
   [doi:10.1002/jcc.27324](https://doi.org/10.1002/jcc.27324)
+
+## Acknowledgments
+
+Development of this code was supported by The Robert Welch Foundation (Grant No. D-1523).
 
 ---
 
