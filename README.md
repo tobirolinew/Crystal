@@ -148,10 +148,10 @@ final binary is `crystal.x` in the root directory.
 `rigidMC` is the system for locating stationary points on the
 interaction potential energy surfaces of rigid molecular
 clusters.
-Each monomer is described by 6 curvilinear rigid-body
-coordinates (3 rotational Euler angles + 3 spherical
-translational coordinates), and the traversal explores the
-intermonomer configuration space.
+Within the fully general internal-coordinate model of `rigidMC`, each 
+monomer is described by 6 curvilinear rigid-body coordinates (3 rotational 
+Euler angles + 3 spherical translational coordinates), and the traversal 
+explores the intermonomer configuration space.
 The cost function is the interaction energy (relative to the
 energy of the fully dissociated and relaxed cluster).
 
@@ -290,7 +290,9 @@ representation of the PES parametrization used in **autoPES**
 how it is evaluated.
 Currently only `f2b_homo` is implemented: a homogeneous cluster
 in which the same potential-energy parametrization is used for
-all monomer pairs.
+all monomer pairs
+(later, an extension will be made to provide a PES representation 
+for heteroclusters, as well).
 
 ### The sentinel parameters
 
