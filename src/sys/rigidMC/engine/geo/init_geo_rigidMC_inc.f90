@@ -69,7 +69,7 @@
                         rad_relax=lview%opt.eq.-1,&
                         dump=lview%dump,&
                         npad=npad,&
-                        polish=max_order.eq.0)
+                        polish=.true.)
             case default
                call catch_error(&
                         err=.true.,&
