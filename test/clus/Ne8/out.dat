@@ -41,31 +41,31 @@
       *** STORE:
           ---
           key  : monomer1
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer2
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer3
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer4
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer5
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer6
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer7
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : monomer8
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne.xyz
+          val  : ~/Crystal/xyz/Nen/Ne.xyz
           ---
           key  : cluster
-          val  : /users/t/r/troy5/Crystal/xyz/Nen/Ne8_GM.xyz
+          val  : ~/Crystal/xyz/Nen/Ne8_GM.xyz
           ---
           key  : custom_drive
           val  : normal
@@ -84,7 +84,7 @@
           val  : cm-1
           ---
           key  : cost_spec
-          val  : /users/t/r/troy5/Crystal/par/Ne2.f2b
+          val  : ~/Crystal/par/Ne2.f2b
           ---
           key  : cost_drive
           val  : f2b_homo
