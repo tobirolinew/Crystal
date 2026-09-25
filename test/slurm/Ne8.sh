@@ -11,7 +11,7 @@ BASE=~/Crystal
 cat > inp.dat << EOF
 Generic parameters:
 
-  cut = -480.5 
+  cut = -480.9 
   contrac = 0.009
   sys_name = rigidMC
   nthreads = ${SLURM_CPUS_PER_TASK}
